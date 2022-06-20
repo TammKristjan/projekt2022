@@ -1,0 +1,5 @@
+npm run build
+firebase deploy
+
+//EI TOHI:
+ei tohi firebase init teha, kui teha, siis peab panema "build" ja kõigele "NO", index faile ei tohi üle kirjutada

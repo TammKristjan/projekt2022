@@ -1,0 +1,25 @@
+.taskItem h2{
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.taskItem p{
+  margin-top: 10px;
+  font-size: 18px;
+  max-height: 300px;
+  line-height: 25px;
+  overflow-y: auto;
+  color: #555555;
+  font-weight: 300;
+}
+
+img {
+  width: fit-content;
+  height: auto;
+}
+
+.modal.undefined > .taskItem > img {
+ display: none;
+}
+
+

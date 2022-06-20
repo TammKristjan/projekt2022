@@ -1,0 +1,75 @@
+
+
+#log-out-button-div{
+    float: right;
+}
+
+
+.main-grid{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 250px auto;
+	grid-template-rows: 150px auto;
+}
+
+.grid-item{
+	width: 100%;
+}
+
+
+
+.loc-left{
+	grid-column: 1 / 2; 
+	grid-row: 1 / 3;
+    background-color: #cddddb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 10%;
+} 
+
+.loc-right{
+	grid-column: 2 / 3; 
+	grid-row: 1 / 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+
+} 
+
+#confirmed-placement > a:hover{
+    color: darkgray;
+}
+
+#confirmed-placement > a, p {
+    /*font-family: "Century Gothic", sans-serif;*/
+    font-weight: 900;
+    color: #555555;
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+
+
+#confirmed-placement{
+    display: flex;
+    flex-direction: row;
+}
+
+#confirmed-placement > a, #confirmed-placement > p{
+    padding: .5%;
+    color: #555555;
+    font-size: 18px;
+}
+
+#confirmed-placement > a:hover{
+    color: cadetblue;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

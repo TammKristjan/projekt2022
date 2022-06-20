@@ -1,0 +1,42 @@
+
+
+#adress::before{
+    background-image: url("map_icon.svg");
+    background-size: 20px 23px;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    content: "";
+}
+
+
+
+#phone::before{
+    background-image: url("phone_icon.svg");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+}
+
+
+#mail::before{
+    background-image: url("envelope_icon.svg");
+    background-size: 20px 18px;
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    content: "";
+}
+
+
+#map{
+    width: 600;
+    height: 450;
+    border: 0;
+}
+
+#contact_component {
+    margin: 4%;
+}

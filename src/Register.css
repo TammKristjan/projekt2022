@@ -1,0 +1,67 @@
+.register {
+  height: 1005;
+  width: 100%;
+}
+
+h1, label {
+  font-family: "Century Gothic", sans-serif;
+  color: #555555;
+}
+
+.register__container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #65bfb49f; */ 
+  padding: 60px;
+}
+
+.register__textBox, .if-student > select {
+  width: 412px;
+  height: 48px;
+  padding: 2px 2px 2px 16px;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  font-family: "Century Gothic", sans-serif;
+  color: #555555;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.register__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  width: 300px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.register__google {
+  background-color: #4285f4;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.register div {
+  margin-top: 7px;
+}
+
+.worker{
+  margin-left: 20px;
+}
+
+.student-and-worker {
+  display: flex;
+  flex-direction: row;
+} 
+
+.if-student > #eriala {
+  margin-right: 60px;
+}
+
+#for-worker {
+  margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.main-footer {
+    color: white;
+    background-color: #65bfb4;
+    padding-top: 3em;
+    
+  
+    width: 100%;
+    position:static;
+    left:0;
+    bottom:0;
+    
+}
+
+.list-unstyled {
+    color: #ffff;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.col2 {
+    margin-left: 90px;
+}
+
+.project-infomation {
+    font-size: 14px;
+    margin: 0;
+}

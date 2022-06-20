@@ -1,0 +1,76 @@
+.main-container {
+  margin: 4%;
+}
+
+.btn-change, .btn-save {
+  width: 187px;
+  height: 54px;
+  padding: 0px  0px 0px 0px; /* 25px 0px 25px*/
+  border-radius: 19px;
+  border: 2px solid #65bfb4;
+  background-color: #65bfb4;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  margin-right: 2%;
+}
+
+.profile {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  border: 0.5px solid hsl(210, 15%, 70%);
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.work, .education, .interest {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  border: 0.5px solid hsl(210, 15%, 70%);
+  margin: 1%;
+}
+
+.profile > img {
+  width: 221px;
+  height: 275px;
+  margin-right: 10px;
+}
+
+
+.main-container {
+  margin: 4%;
+}
+
+.container-for-data-myprofile {
+  width: 802px;
+  height: 158px;
+  padding: 2px 2px 2px 16px;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  font-family: "Century Gothic", sans-serif;
+  color: #555555;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.container-for-data-myprofile2 {
+  width: 502px;
+  height: 48px;
+  padding: 2px 2px 2px 16px;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  font-family: "Century Gothic", sans-serif;
+  color: #555555;
+  text-align: left;
+  margin-bottom: 20px;
+  }

@@ -1,0 +1,117 @@
+#btn-new-portfolio:hover {
+    background-color: #4a8c84;
+    border-color: #4a8c84;
+}
+
+#btn-new-portfolio { 
+    width: 187px;
+    height: 54px;
+    padding: 0px  0px 0px 0px; 
+    border-radius: 19px;
+    border: 2px solid #65bfb4;
+   /*  background-color: #65bfb4; */
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+    font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+}
+
+.main-content-box > h1, h2 {
+    font-family: "Century Gothic", sans-serif;
+    color: #555555;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: #65bfb4;
+}
+
+.all-portfolios > div {
+    border: 0.5px solid;
+    border-color: #555555;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.all-portfolios {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.all-portfolios > div {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 1%;
+
+}  
+
+.main-content-box {
+    margin: 4%;
+    height: auto;
+}
+
+img {
+    min-width:fit-content;
+    min-height: auto;
+}
+
+.task.false > .task__body > .text-area > p{
+    min-width: 400px;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+}
+
+.task.fasle > img {
+    width: 400px;
+    height: fit-content; 
+}
+
+.task__body p{
+    margin: 0 0 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    font-size: 18px;
+  }
+
+
+  
+.task__body > .text-area > p{
+    margin: 0 0 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    font-size: 18px;
+}
+
+.task__body > .text-area {
+    min-width: 380px;
+}
+
+.task__body > img {
+    min-width: 380px;
+}
+
+footer {
+    display: none;
+}

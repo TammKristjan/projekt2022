@@ -1,0 +1,146 @@
+nav, nav.li{
+  background-color: white;
+}
+
+.navbar {
+  margin-bottom:7px;
+  margin-top: 7px;
+}
+
+/* set the position of dropdown */  
+.dropdown {
+  z-index: 10;
+  left:auto;
+  position: relative;
+  display: inline-block;
+}  
+
+/* set the size and position of button on web */  
+.button {  
+  padding: 10px 30px;  
+  font-size: 15px;  
+  margin-top: 10px;
+} 
+
+/* provide css to background of list items */   
+#list-items {
+  right:0;
+  display: none;
+  position: absolute;  
+  background-color: white;  
+  min-width: 110px;  
+}  
+
+/* provide css to list items */   
+#list-items a {  
+  display: block;  
+  font-size: 18px;  
+  background-color: #ddd;  
+  color: black;  
+  text-decoration: none;  
+  padding: 10px;  
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 1%;
+}
+  
+.login__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+  
+.login__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: #65bfb5;
+}
+  
+.login__btn:hover{
+  background-color:  #4a8c84;
+}
+
+.login__google {
+  background-color: #4285f4;
+}
+
+.login div {
+  margin-top: 7px;
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.logo{
+  background-image: url("logo3.png");
+  background-size: 201px 63px;
+  display: inline-block;
+  width: 201px;
+  height: 63px;
+  content: "";
+  margin-right: 20px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.navbar-brand {
+  float: right;
+  padding: 23px;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #565656;
+}
+
+.nav>li>a {
+  padding: 23px;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #565656;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown > button {
+  background-color: #65bfb5;
+  border-color: #65bfb5;
+  color: #ffffff;
+  border-radius: 5%;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-right > a {
+  padding: 0;
+  margin: 0;
+}
+
+.input-group {
+  margin: 10px;
+}
+
+.register-now > Link {
+  color: #4285f4;
+}

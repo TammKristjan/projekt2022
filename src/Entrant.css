@@ -1,0 +1,173 @@
+
+#sub-heading1{
+    width: 551px;
+    height: 64px;
+    background-color: rgba(51, 51, 51, 0);
+    box-sizing: border-box;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 700;
+    color: #65bfb4;
+    text-align: left;
+    line-height: normal;
+  }
+
+#informatics-div{
+	width: 90.5%;
+	height: 80vh;
+}
+
+
+#informatics-div, #mathematics-div, #masters-studies-1, #masters-studies-2, #masters-studies-3, #masters-studies-4, #masters-studies-5, 
+#masters-studies-6, #masters-studies-7, #masters-studies-8{
+	background-color:#f0f7f6;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+    overflow-y: auto;
+	text-align:justify;
+}
+
+
+#mathematics-div{
+	width: 90.5%;
+	height: 68vh;
+}
+
+#masters-studies-1{
+	width: 90.5%;
+	height: 33%;
+
+}
+
+#masters-studies-2{
+	width: 90.5%;
+	height: 33%;
+
+}
+#masters-studies-3{
+	width: 90.5%;
+	height: 20%
+	
+
+}
+#masters-studies-4{
+	width: 90.5%;
+	height: auto;
+	
+
+}
+#masters-studies-5{
+	width: 90.5%;
+	height: 20%;
+		
+
+}
+#masters-studies-6{
+	width: 90.5%;
+	height: 20%;
+	
+
+}
+#masters-studies-7{
+	width: 90.5%;
+	height: 20%;
+	
+
+}
+#masters-studies-8{
+	width: 90.5%;
+	height: 20%;
+	
+
+}
+
+
+summary {
+	cursor: pointer;
+	display: list-item;
+	font-size: 18px;
+}
+
+
+summary:hover{
+	color: darkgray;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	background-color: #CBF2ED;
+	min-width: 100%;
+}
+
+
+.content-special{
+	height: auto;
+}
+
+
+.youtube-video{
+	/*width: 1290px; */
+	/*min-width: 560px;*/
+	min-width: 36.8%;  /*36.8%*/
+	/*height: 319px;*/
+	min-height: 315px;
+}
+
+
+.text{
+	padding: 2%;
+}
+
+
+#inf-picture{
+	max-width: 36.8%;
+	height: 210px;
+}
+
+#inf-picture2{
+	max-width: 36.8%;
+	min-width: 5px;
+	min-height: 2px;
+	height: auto;
+}
+
+
+#infteach-picture{
+	max-width: /*560px*/  36.8%;
+	height: auto;
+}
+
+
+.btn-secondary:hover {
+    background-color: #4a8c84;
+    border-color: #4a8c84;
+  }
+  
+  .btn-secondary { 
+    width: 187px;
+    height: 54px;
+    padding: 0px  0px 0px 0px; /* 25px 0px 25px*/
+    border-radius: 19px;
+    border: 2px solid #65bfb4;
+    background-color: #65bfb4;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+    font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+  }
+
+
+
+.links{
+	color: rgb(27, 27, 27);
+	text-decoration: none;
+}
+
+.main-container {
+	margin: 4%;
+}

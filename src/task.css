@@ -1,0 +1,138 @@
+.task{
+  
+  border: 0.5px solid hsl(210, 10%, 75%);
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  align-items:flex-end;
+  box-sizing: border-box;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.task--borderColor{
+  border-color: green;
+  box-shadow: 0 6px 18px -9px hsl(210, 15%, 65%);
+}
+
+.task__body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.checkbox-custom {
+  display: none;
+}
+
+.checkbox-custom-label {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+  content: '';
+  background: inherit;
+  border-radius: 5px;
+  border: 2px solid hsl(210, 15%, 70%);
+  display: inline-block;
+  vertical-align: middle;
+  width: 12px; 
+  height: 12px;
+  padding: 2px; 
+  margin-right: 10px;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:after {
+  content: "";
+  padding: 2px;
+  position: absolute;
+  width: 2px;
+  height: 6px;
+  border: solid green;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  top: 2px; left: 5px;
+}
+
+.task__body p{
+  margin: 0 0 0 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical; 
+  font-size: 18px;
+}
+
+.task__buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.task__buttons > button {
+  background-color: #4a8c84;;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.task__buttons > button:hover {
+  background-color: hsl(210, 70%, 50%);
+}
+
+.task__buttons > button:active{
+  background-color: hsl(210, 70%, 60%);
+}
+
+.task__deleteNedit button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: hsl(210, 10%, 55%);
+}
+
+.task__editButton:hover {
+  color: hsl(210, 20%, 25%);
+}
+
+.task__editButton:active {
+  color: hsl(210, 10%, 55%);
+}
+
+.task__deleteNedit .task__deleteButton {
+  color: hsl(0, 80%, 80%);
+}
+
+.task__deleteButton:hover {
+  color: hsl(0, 70%, 70%);
+}
+
+.task__deleteButton:active {
+  color: hsl(0, 80%, 80%);
+}
+
+.task__body > img {
+  width: 400px;
+  height: fit-content;
+  /* position: absolute;
+  clip: rect(auto,auto,200px,auto); */
+}
+
+.text-area {
+  margin: 0% 3% 3% 3%;
+}
+
+.text-area > p {
+  font-weight: 100;
+}

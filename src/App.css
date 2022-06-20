@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.background-box{
+    background-color: #65bfb4;
+    width: 100%;
+    height: 100%;
+}
+
+.content-box{
+    /* position: absolute; */
+    /* left: 100px; */
+    width: 92%;
+    background-color:white;
+    margin: 0% 0% 0% 8%;
+    height: 100%;
+}
+
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+
+
