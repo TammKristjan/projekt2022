@@ -35,5 +35,5 @@ link dokumentatsioonilkaustale: https://drive.google.com/drive/folders/1gyvsY5xT
 
 link meeskonnablogile: https://suvepraktika.cs.tlu.ee/2022/ryhm03/ 
 
-viide litsentsile
+<a href="https://github.com/TammKristjan/projekt2022/blob/main/LICENCE">Viide litsentsile</a>
 
