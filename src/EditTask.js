@@ -3,7 +3,7 @@ import {useState} from 'react'
 import './editTask.css'
 import { doc, updateDoc } from "firebase/firestore";
 import {db} from './firebase'
-import './texteditor.js'
+import './texteditor.js';
 import React, { useRef } from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 
@@ -14,6 +14,7 @@ function EditTask({open, onClose, toEditTitle, toEditDescription, id}) {
 
   const editorRef = useRef(null);
 
+
   /* function to update document in firestore */
   const handleUpdate = async (e) => {
     e.preventDefault()
@@ -21,7 +22,7 @@ function EditTask({open, onClose, toEditTitle, toEditDescription, id}) {
     try{
       await updateDoc(taskDocRef, {
         title: title,
-        description: description
+        description: editorRef.current.getContent(),
       })
       onClose()
     } catch (err) {
@@ -36,7 +37,7 @@ function EditTask({open, onClose, toEditTitle, toEditDescription, id}) {
         <input 
           type='text' 
           name='title' 
-          onChange={(e) => setTitle(e.target.value.toUpperCase())} 
+          onChange={(e) => setTitle(e.target.value.toUpperCase())}
           value={title}/>
         <Editor
           onInit={(evt, editor) => editorRef.current = editor}

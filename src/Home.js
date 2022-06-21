@@ -58,6 +58,7 @@ function Home() {
                   completed={tasks[0].data.completed}
                   title={tasks[0].data.title} 
                   description={tasks[0].data.description}
+                  speciality={tasks[0].data.speciality}
                   name={tasks[0].data.name}
                   picture={tasks[0].data.picture}
                 />
@@ -67,6 +68,7 @@ function Home() {
                   completed={tasks[1].data.completed}
                   title={tasks[1].data.title} 
                   description={tasks[1].data.description}
+                  speciality={tasks[1].data.speciality}
                   name={tasks[1].data.name}
                   picture={tasks[1].data.picture}
                 />
@@ -76,6 +78,7 @@ function Home() {
                   completed={tasks[2].data.completed}
                   title={tasks[2].data.title} 
                   description={tasks[2].data.description}
+                  speciality={tasks[2].data.speciality}
                   name={tasks[2].data.name}
                 />
                 }

@@ -22,8 +22,10 @@ function Task({id, title, description, completed, name, picture, speciality}) {
         <img src={picture}></img>
         <div class="text-area">
         <h2>{title}</h2>
-        <div dangerouslySetInnerHTML={{__html: description}} />
+        <br></br>
+        <h3>{speciality}</h3>
         <h3>{name}</h3>
+        <div dangerouslySetInnerHTML={{__html: description}} />
         <div className='task__buttons'>
           <button 
             onClick={() => setOpen({...open, view: true})}>

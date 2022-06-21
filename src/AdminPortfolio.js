@@ -27,6 +27,11 @@ function AdminPortfolio({id, onClose, open, title, description, name, picture, s
     setTimeout(onClose, 500)
   }
 
+  const changeFalse = async () => {
+    setState(false);
+    setTimeout(onClose, 500)
+  }
+
   useEffect(() => {
     handleCheckedChange();
   },[state]);
@@ -48,7 +53,7 @@ function AdminPortfolio({id, onClose, open, title, description, name, picture, s
     </button>
     <button 
       className='task__editButton' 
-      onClick={() => {setState(false); handleCheckedChange()}}>
+      onClick={() => {changeFalse()}}>
       LÜKKA TAOTLUS TAGASI
     </button>
     </Modal>
