@@ -26,14 +26,14 @@ Paigaldusjuhised:
 4. Seejärel command promptis "npm install"
 5. Seejärel command promptis "npm start" ja avaneb veebileht lokaalselt (localhost:3000)
 
-
-
 <br></br>
-link veebilehele:  https://projekt2022-a4288.web.app/
-
-link dokumentatsioonilkaustale: https://drive.google.com/drive/folders/1gyvsY5xT8upDaLBJL3OzliFLIGXOnuXE?usp=sharing 
-
-link meeskonnablogile: https://suvepraktika.cs.tlu.ee/2022/ryhm03/ 
+link veebilehele:  https://projekt2022-a4288.web.app/ 
 
 <a href="https://github.com/TammKristjan/projekt2022/blob/main/LICENCE">Viide litsentsile</a>
+
+<br></br>
+![avaleht](https://user-images.githubusercontent.com/90316827/174982694-a08dc0bf-a84e-42e4-a0d8-bce0e457bf17.jpg)
+![minu-portfooliod](https://user-images.githubusercontent.com/90316827/174982775-25d86179-10cc-4753-9dc9-8092cdabd138.jpg)
+![admini-leht](https://user-images.githubusercontent.com/90316827/174982886-71dc7b55-a580-4dca-8850-ec286dc35738.jpg)
+
 
